@@ -43,3 +43,94 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+
+# Generated files
+*.class
+*.lock
+*.log
+*.pyc
+*.swp
+*.DS_Store
+*.suo
+*.exe
+*.dll
+*.tmp
+*.bak
+*.orig
+*.o
+*.a
+*.so
+
+# IntelliJ related
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# VS Code related
+.vscode/
+
+# Android related
+android/.gradle/
+android/captures/
+android/local.properties
+android/.idea/
+android/app/debug
+android/app/release
+
+# iOS/macOS related
+ios/Flutter/.last_build_id
+ios/Pods/
+ios/.symlinks/
+ios/.idea/
+ios/Runner.xcworkspace/
+ios/build/
+ios/Runner.xcworkspace/
+macos/Flutter/ephemeral/
+macos/Pods/
+macos/Runner.xcworkspace/
+macos/build/
+macos/.generated/
+
+# Web related
+web/.dart_tool/
+
+# Linux related
+linux/flutter/ephemeral/
+linux/build/
+
+# Windows related
+windows/flutter/ephemeral/
+windows/build/
+
+# Fuchsia related
+.fuchsia/
+
+# Coverage
+coverage/
+
+# Firebase / secrets (if any)
+*.keystore
+.env
+firebase*.json
+
+# IDEs
+.idea/
+*.iml
+
+# Misc
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Symbolic links (can be useful to exclude if using packages or symlinks)
+.symlinks/
