@@ -13,7 +13,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 100), () {
+    Timer(Duration(seconds: 5), () {
       Navigator.of(
         context,
       ).pushReplacement(MaterialPageRoute(builder: (_) => HomePage()));
@@ -41,7 +41,7 @@ class _SplashScreenState extends State<SplashScreen> {
             isRepeatingAnimation: false,
             animatedTexts: [
               TypewriterAnimatedText(
-                'Retrobooth',
+                'Retro Booth',
                 textStyle: GoogleFonts.dancingScript(
                   fontSize: 48,
                   color: Colors.white,
@@ -49,6 +49,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   letterSpacing: 2,
                 ),
                 speed: Duration(milliseconds: 200),
+                cursor: '',
               ),
             ],
           ),
